@@ -1,0 +1,1 @@
+emcc wboard.c utils.c boardutils.c game.c -Os -s WASM=1 -s SIDE_MODULE=1 -o %WASM_BASE_DIR%\wboard\wboard.wasm

@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {        
+        "target":"ES5",
+        "outFile": "wasmboard.js"
+    },
+    "files": [   
+        "resources/rawdata.ts",
+        "utils/webassembly.d.ts",
+        "utils/textencoding.ts",
+        "utils/wasmloader.ts",
+        "utils/assetloader.ts",
+        "utils/vectors.ts",
+        "utils/misc.ts",
+        "analysis.ts",
+        "book.ts",
+        "game.ts",
+        "config.ts",            
+        "dom/dom.ts",
+        "players.ts",
+        "bracket.ts",
+        "setup.ts",
+        "dom/gui.ts",        
+        "wboard.ts",
+        "globals.ts",
+		"main.ts"
+    ]
+}
